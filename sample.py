@@ -31,7 +31,7 @@ def create_pdf(content):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="Explore the Email Content", layout="centered")
-st.title("Explore the Email Content")
+st.title("Explore the Email Content ")
 
 with st.expander("ℹ️ Instructions", expanded=False):
     st.markdown("""
