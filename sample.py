@@ -31,7 +31,7 @@ def create_pdf(content):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="AI Email Generator", layout="centered")
-st.title("✉️ AI Email Generator using Gemini")
+st.title("Explore the Email Content")
 
 with st.expander("ℹ️ Instructions", expanded=False):
     st.markdown("""
