@@ -30,7 +30,7 @@ def create_pdf(content):
     return pdf
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="AI Email Generator", layout="centered")
+st.set_page_config(page_title="Explore the Email Content", layout="centered")
 st.title("Explore the Email Content")
 
 with st.expander("ℹ️ Instructions", expanded=False):
